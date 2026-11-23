@@ -5,7 +5,7 @@
 - 💻 **Svelte 5 and SvelteKit 2**
 - 🚪 **Auth** (both social and magic link, using Lucia)
 - 📧 **Sending Emails** (using Postmark)
-- 🎨 **Styling** (using tailwindcss and daisyUI )
+- 🎨 **Styling** (using tailwindcss and shadcn)
 - 📦 **Database** (using turso and drizzle as ORM)
 - ☁️ **Serverless hosting** using vercel
 
@@ -13,8 +13,8 @@
 
 #### Local Development
 
-- Run `npm install --legacy-peer-deps` or `pnpm install`
-- Rename the `.env.example` file to `.env` and __populate it with your own values__
+- Run `pnpm install`
+- Rename the `.env.example` file to `.env` and **populate it with your own values**
 - Run `npm run generate && npm run migrate` to create a local database
 - Install mailpit to receive emails locally https://mailpit.axllent.org/docs/install/
 - run `npm run dev`
@@ -33,6 +33,7 @@
 Feel free to contribute or suggest improvements! 🤝
 
 ### How to setup Just Ship the youtube tutorial
+(note this tutorial is slightly outdated) You don't need mailpit neccesarily I log the email login link in the console. 
+I also use shadcn now instead of daisyUI
 
 [![How to use Just Ship](https://img.youtube.com/vi/sJZOXUhkvMc/0.jpg)](https://www.youtube.com/watch?v=sJZOXUhkvMc)
-
